@@ -2,9 +2,9 @@
 
 Can a computer make art? Sure. Can you make art with a computer? Absolutely! Even if you (think you) have never written code before.
 
-In this practical workshop you will learn how to make a bot that tweets your generative art. 
+**In this practical workshop you will learn how to make a bot that tweets your generative art**. 
 
-We will use [CheapBotsDoneQuick](http://cheapbotsdonequick.com), a tool that does the heavy lifting (Twitter API and such) so that we can focus on being creative with language and graphics.
+We will use [CheapBotsDoneQuick](http://cheapbotsdonequick.com) by @v21, an amazing free tool that does the heavy lifting (Twitter API and such) so that we can focus on being creative with language and graphics.
 
 ### Why?
 
