@@ -22,4 +22,11 @@ This is an opportunity for us to play with the language of bots, to develop a be
 	We’ll get inspired with a few examples of generative-art-bots. Then we will generate ideas for your bot in a collective *brainswarm*: write down the inception of your idea, then pass it around the room for everyone else to add to it, until it comes back to you.
 3. BOT-MAKING 
 
-	We’ll help you turn your idea into a Twitter bot using CheapBotsDoneQuick. Before time is over, we’ll admire what you have produced and follow each other’s bot!  
+	We’ll help you turn your idea into a Twitter bot using CheapBotsDoneQuick. Before time is over, we’ll admire what you have produced and follow each other’s bot! 
+
+	
+### License
+
+[![](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0)
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0) 
