@@ -1,10 +1,21 @@
+# Welcome
+
+* How many of you made a bot before?
+* How many of you follow bots on Twitter?
+
+Round of intros:
+
+* Who are you?
+* Why are you here?
+
+
 # Can computers make art?
 
 Or more specifically...
 
 > Can computer algorithms generate art?
 
-Of course! We could argue that computers don't know (yet) they have generated something worthy of being considered  art. 
+Of course! We could argue that computers don't know (yet) they have generated something worthy of being considered art. 
 
 <!-- Computer programs lack self-awareness (at present), and for the sake of this workshop, they lack what is called *curation coefficient*: they don't know if what they generated is good. --> 
 
@@ -20,7 +31,7 @@ Let's not try this with real monkeys! Instead we can (quite easily) create a com
 
 ### Since we don't have enough time...
 
-What's the likelihood of getting a meaningful sentence our of a completely random combination of words? It depends ... in any case it's *very* low.
+What's the likelihood of getting a meaningful sentence out of a completely random combination of words? It depends ... in any case it's *very* low.
 
 How do we train our algorithmic monkey to hit meaningful sentences more often?
 
@@ -29,10 +40,21 @@ How do we train our algorithmic monkey to hit meaningful sentences more often?
 	Spam bots often use Markov chains to generate semi-sensical texts (see [Spam Poetry](http://www.spampoetry.org). A fascinating example of Markov chains used on social media is [What would I say?](http://what-would-i-say.com)
 * Using a **generative grammar**, ie: a set of rules that can generate combinations of words which form grammatical sentences. 
 	
-	We  are familiar with the idea of *grammar* as a set of rules that define how we combine words in the languages we use to speak every day, so that other humans can understand us. 
+	We are familiar with the idea of *grammar* as a set of rules that define how we combine words in the languages we use to speak every day, so that other humans can understand us. 
 	
-	In a similar way, we can define a grammar for generative art. 
+	In a similar way, we can define a grammar for generative art. People have used generative grammars to make things like the [Art Critique generator](http://www.pixmaven.com/phrase_generator.html), the [Artist Bio generator](http://500letters.org/form_15.php), the [Fifty Shades generator](http://www.fiftyshadesgenerator.com/) and many other *generators*.
 	
-	In the most simple form, a generative grammar is made of a set of **structural rules**, which tell the computer how to put text together, and a set of **expansions**, which are options the computer can pick when generating text. 
+	A generative grammar is made of a set of **structural rules**, which tell the computer how to put text together, and a set of **expansions**, which are options the computer can pick when generating text. 
 	
-	Today we're going to use [Tracery](http://www.crystalcodepalace.com/tracery.html), a language specifically written to help you write those generative grammar rules.
+	Today we're using [Tracery](http://www.crystalcodepalace.com/tracery.html), a language specifically written to help you write those generative grammar rules.
+	
+# TODO
+
+- [ ] Let's play a generative grammar together, eg: generative drawing with 3 random colours, 3 random starting points, 3 actions / shapes (could use Sol Levitt as inspiration)
+
+- [ ] Let's get inspired. Show bots that are built using a generative grammar (Tracery + CBDQ) and think about what could be their grammar
+
+- [ ] let's generate some ideas. Brain-swarming (or) bot idea generator
+
+- [ ] Make the thing on CBDQ, with a little help from [this friend](https://matteomenapace.github.io/random-generator-generator/)
+	
