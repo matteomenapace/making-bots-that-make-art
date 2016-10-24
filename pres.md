@@ -3,7 +3,7 @@
 * How many of you made a bot before?
 * How many of you follow bots on Twitter?
 
-Round of intros:
+### Nice to meet you
 
 * Who are you?
 * Why are you here?
@@ -25,7 +25,7 @@ The question is **not whether** or not art can be made using algorithms, **but h
 
 > Given enough time, a hypothetical monkey typing at **random** would, as part of its output, almost surely produce all of Shakespeare’s plays.
 
-[![](assets/monkeys.png)](https://www.youtube.com/watch?v=no_elVGGgW8)
+[![](assets/monkeys.jpg)](https://www.youtube.com/watch?v=no_elVGGgW8)
 
 Let's not try this with real monkeys! Instead we can (quite easily) create a computer program that simulates the theorem's hypothetical monkey. We can instruct our algorithmic monkey to *play dice* and combine sets of symbols to compose words, words to make sentences and so on.
 
