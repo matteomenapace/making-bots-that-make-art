@@ -149,7 +149,29 @@ Scroll through their Twitter feeds and see if you can spot any **patterns** or *
 [@softlandscapes](https://twitter.com/softlandscapes)
 
 	
+# Let's generate some ideas!
 
+Do you have an idea for your generative Twitter bot?
+
+If not, head to [bit.ly/bot-ideas-generator](https://matteomenapace.github.io/random-generator-generator/examples/bot-idea-generator/) to get some inspiration :bulb:
+
+### Brain-swarm 
+
+You may be familiar with *brainstorming*, but have you heard of [**brain-swarming**](http://blogs.hbr.org/2014/03/why-you-should-stop-brainstorming/) before?
+
+> No study has proven that brainstorming works well, even though it has been the go-to method for **idea generation** since 1953.
+
+In *brainstorming* you **talk** (and interrupt), whilst in *brainswarming* you **write**.
+
+#### Your turn
+
+1. Grab sharpies and post-its.
+* Write down the inception of your Twitter bot idea on one post-it.
+* Pass it around the room for everyone else to add to it, until it comes back to you!
+
+
+
+We will use [CheapBotsDoneQuick](http://cheapbotsdonequick.com) by [@v21](https://github.com/v21), an amazing free tool that does the heavy lifting (Twitter API and such) so that we can focus on being creative with language and graphics.
 
 
 
@@ -158,7 +180,7 @@ Scroll through their Twitter feeds and see if you can spot any **patterns** or *
 
 
 # TODO
-- [ ] let's generate some ideas. Brain-swarming (or) [bit.ly/bot-ideas-generator](https://matteomenapace.github.io/random-generator-generator/examples/bot-idea-generator/)
+
 
 - [ ] Make the thing on CBDQ, with a little help from [this friend](https://matteomenapace.github.io/random-generator-generator/) or [this friend](http://www.brightspiral.com/tracery/)
 	
