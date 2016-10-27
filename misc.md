@@ -27,7 +27,7 @@ From [A Brief History Of The Future Of Twitter Bots](http://www.gamesbyangelina.
   * [@StealthMountain](https://twitter.com/StealthMountain) searches and replies to tweets containing `sneak peak` and reminds them it’s spelled `sneak peek`
 * Interactives
   * [@wikisext](https://twitter.com/@wikisext) generates spoof *sexting* tweets using mashups from Wikihow
-  * [@DistractedGenie](https://twitter.com/@DistractedGenie) searches for `I wish I had…` and then tweets out mishearings of the phrase.
+  * [@DistractedGenie](https://twitter.com/@DistractedGenie) searches for `I wish I had…` and then tweets out mis-hearings of the phrase.
   * [@oliviataters](https://twitter.com/oliviataters) attempts to mimic a teenager tweeting, responds to tweets and proactively tweets to followers
 * Imagebots
   * [@badpng](https://twitter.com/badpng) takes images through @-replies and re-encodes them as PNGs in a glitchy style
@@ -56,52 +56,66 @@ From [A Brief History Of The Future Of Twitter Bots](http://www.gamesbyangelina.
   * [@GooglePoetics](https://twitter.com/GooglePoetics) posts pictures of Google Autocompletes that appear poetic or lyrical in nature [not a bot]
   * [@Horse_ebooks](https://twitter.com/Horse_ebooks) originally a Markov generator run on ebooks about horses, it was later taken over by two artists who tweeted attempting to mimic a bot’s unintentional poetry
 
+### Twitterbots made with CBDQ
+
+* [@tranquilbot](https://twitter.com/tranquilbot)
+* [@memorypoem](https://twitter.com/memorypoem)
+* [@infinitedeserts](https://twitter.com/infinitedeserts)
+* [@unicode_garden](https://twitter.com/unicode_garden)
+* [@cryptbooks](https://twitter.com/cryptbooks)
+* [@CombinationBot](https://twitter.com/CombinationBot)
+
+### More bots
+
 <!--  * [@](https://twitter.com/) -->
 
-[@walkingtourbot](https://twitter.com/@walkingtourbot ) follows Google directions and tweets the results.
+[@walkingtourbot](https://twitter.com/@walkingtourbot) follows Google directions and tweets the results.
 
 [@OurMissionStmt](https://twitter.com/OurMissionStmt) generates mission statements for your business
 
 [@endingsummary](https://twitter.com/endingsummary) tweets final sentences from Wikipedia film plot summaries
 
+[@GenerateACat](https://twitter.com/GenerateACat)
 
-# Twitterbots made CBDQ
+[@the_ephemerides](https://twitter.com/the_ephemerides)
 
-[@tranquilbot](https://twitter.com/tranquilbot)
-[@memorypoem](https://twitter.com/memorypoem)
-[@infinitedeserts](https://twitter.com/infinitedeserts)
-[@unicode_garden](https://twitter.com/unicode_garden)
-[@cryptbooks](https://twitter.com/cryptbooks)
-[@CombinationBot](https://twitter.com/CombinationBot)
+[@a_lovely_cloud](https://twitter.com/a_lovely_cloud)
 
-### More bots
+[@Botgle](https://twitter.com/Botgle)
 
-https://twitter.com/godtributes 
-https://twitter.com/wikishoutouts 
-https://twitter.com/soft_focuses
-https://twitter.com/lichmaze
-https://twitter.com/TVCommentBot
-https://twitter.com/Deer_ebooks
-https://twitter.com/FFD8FFDB
-https://twitter.com/CreatureList
-https://twitter.com/reverseocr
-https://twitter.com/ARealRiver
-https://twitter.com/nice_tips_bot
-https://twitter.com/artassignbot
-https://twitter.com/park_your_car
-https://twitter.com/GenerateACat
-https://twitter.com/wikisext
-https://twitter.com/everywitchword
-https://twitter.com/TwoHeadlines
-https://twitter.com/pentametron
-https://twitter.com/oliviataters
-https://twitter.com/MythologyBot
-https://twitter.com/poem_exe
-https://twitter.com/RestroomGender
-https://twitter.com/digital_henge
-https://twitter.com/Botgle
-https://twitter.com/a_lovely_cloud
-https://twitter.com/the_ephemerides
+[@digital_henge](https://twitter.com/digital_henge)
+
+[@RestroomGender](https://twitter.com/RestroomGender)
+
+[@poem_exe](https://twitter.com/poem_exe)
+
+[@MythologyBot](https://twitter.com/MythologyBot)
+
+[@everywitchword](https://twitter.com/everywitchword)
+
+[@park_your_car](https://twitter.com/park_your_car)
+
+[@artassignbot](https://twitter.com/artassignbot)
+
+[@nice_tips_bot](https://twitter.com/nice_tips_bot)
+
+[@ARealRiver](https://twitter.com/ARealRiver)
+
+[@CreatureList](https://twitter.com/CreatureList)
+
+[@FFD8FFDB](https://twitter.com/FFD8FFDB)
+
+[@Deer_ebooks](https://twitter.com/Deer_ebooks)
+
+[@TVCommentBot](https://twitter.com/TVCommentBot)
+
+[@lichmaze](https://twitter.com/lichmaze)
+
+[@soft_focuses](https://twitter.com/soft_focuses)
+
+[@wikishoutouts](https://twitter.com/wikishoutouts)
+
+[@godtributes](https://twitter.com/godtributes) 
 
 
 ## Botiquette
@@ -113,19 +127,7 @@ Adapted from [Darius Kazemi's](http://tinysubversions.com/2013/03/basic-twitter-
 * Don’t use a pre-existing hashtag. Using an existing hashtag, particularly a trending hashtag, is what Twitter refers to as `hashtag pollution`
 * Don’t go over your rate limits
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--
 
 # Very MISC
 
@@ -134,13 +136,9 @@ Twitter estimates that 1/20 of its accounts is not human (see [Bot or Not?](http
 Aesthetics: Lots of bots focus on quantity over quality (to some degree). There’s an element of serendipity to
 following bots and discovering tweets. For (some) Twitterbots, the volume of tweets and scarcity of truly surprising and great tweets are aesthetics (eg: @everyword).
 
-For Computational Creativity, the ratio of good tweets to all tweets is more important. We call this ratio the
-curation coefficient
+For *Computational Creativity* the ratio of good tweets to all tweets is more important. We call this ratio the
+*curation coefficient*
 
 > Most bots play dice
 
-
-
-
-
-
+-->
