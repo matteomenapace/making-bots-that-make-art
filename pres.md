@@ -74,7 +74,8 @@ People have used generative grammars to make things like the [Art Critique gener
 A generative grammar is made of a set of **structural rules**, which tell the computer how to put things together, and a set of **expansions**, which are options the computer can pick when generating stuff. 
 	
 <!-- Why grammars instead of Markov chains? Because they tend to be easier to start with, and give you more control over the generated output -->
-	
+
+
 # Let's play a grammar!
 
 To understand how a generative grammar works (and that it doesn't only apply to text) we'll use one to make drawings, together!
@@ -111,6 +112,7 @@ Notice how the English `random marker` becomes `#marker#`. That tells a computer
 > Fold the paper along two random points, pick a random marker, draw a line of random length on the fold.
 > Pick a random hand, place it on a random point on the paper, trace the hand with a random marker 
 -->	
+
 	
 # Let's reverse-engineer a grammar!	
 	
@@ -170,17 +172,13 @@ In *brainstorming* you **talk** (and interrupt), whilst in *brainswarming* you *
 * Pass it around the room for everyone else to add to it, until it comes back to you!
 
 
+# Let's make the bot!
 
-We will use [CheapBotsDoneQuick](http://cheapbotsdonequick.com) by [@v21](https://github.com/v21), an amazing free tool that does the heavy lifting (Twitter API and such) so that we can focus on being creative with language and graphics.
+We will use [CheapBotsDoneQuick](http://cheapbotsdonequick.com) by [@v21](https://github.com/v21), an amazing free tool that does the heavy lifting (Twitter API and such) so that you can focus on being creative with your grammar.
 
+[![](assets/cbdq.png)](http://cheapbotsdonequick.com)
 
+*With a little help from [this friend](https://matteomenapace.github.io/random-generator-generator) or [this friend](http://www.brightspiral.com/tracery)* :wrench:
 
-
-
-
-
-# TODO
-
-
-- [ ] Make the thing on CBDQ, with a little help from [this friend](https://matteomenapace.github.io/random-generator-generator/) or [this friend](http://www.brightspiral.com/tracery/)
+Before time is over, we'll admire what you have produced and follow each other's bots! 
 	
