@@ -180,5 +180,7 @@ We will use [CheapBotsDoneQuick](http://cheapbotsdonequick.com) by [@v21](https:
 
 *With a little help from [this friend](https://matteomenapace.github.io/random-generator-generator) or [this friend](http://www.brightspiral.com/tracery)* :wrench:
 
+<!-- http://air.decontextualize.com/tracery -->
+
 Before time is over, we'll admire what you have produced and follow each other's bots! 
 	
