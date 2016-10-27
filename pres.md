@@ -7,7 +7,7 @@ Hands up :raising_hand: if you...
 * are an artist
 * are a coder
 
-## Nice to meet you!
+### Nice to meet you!
 
 * Who are you?
 * Why are you here?
