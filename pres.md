@@ -35,26 +35,31 @@ What's the likelihood of getting a meaningful sentence out of a completely rando
 
 How do we train our algorithmic monkey to hit meaningful sentences more often?
 
-1. With probability, ie: a [**Markov chain**](https://en.wikipedia.org/wiki/Markov_chain). 
+#### 1. Using probability
 
-	There are two *states* in a Markov chain: what happens *now* and what can happen *next*. Each state has a probability associated with it. What happens next depends only on what happened now, not what happened two or three steps ago, even if there are multiple states. [Here's an interactive explanation](http://setosa.io/blog/2014/07/26/markov-chains/) of Markov chains. 
+That is, using a [**Markov chain**](http://setosa.io/blog/2014/07/26/markov-chains/). 
+
+There are two *states* in a Markov chain: what happens *now* and what can happen *next*. Each state has a probability associated with it. What happens next depends only on what happened now, not what happened two or three steps ago, even if there are multiple states.
   
-	Now back to the monkey.. we could feed it with **source material** (eg: an article, a poem, an entire book...) and teach it to notice which words are more likely to follow each word in the source text. Then we could ask the monkey to build chains of words: starting from one word (perhaps a random word, or one that is likely to appear at the beginning of sentences in the source text), then picking the *next* word at random from the ones that follow the current word in the source text. 
+Now back to the :monkey: we could feed it with **source material** (eg: an article, a poem, an entire book...) and teach it to notice which words are more likely to follow each word in the source text. Then we could ask the monkey to build chains of words: starting from one word (perhaps a random word, or one that is likely to appear at the beginning of sentences in the source text), then picking the *next* word at random from the ones that follow the current word in the source text. 
 
-	Spam bots often use Markov chains to generate semi-sensical texts (see [Spam Poetry](http://www.spampoetry.org)). Other fascinating examples of Markov chains used on social media are [What would I say?](http://what-would-i-say.com) and the [Trump bot](https://filiph.github.io/markov/).
+Spam bots often use Markov chains to generate semi-sensical texts (see [Spam Poetry](http://www.spampoetry.org)). Other fascinating examples of Markov chains used on social media are [What would I say?](http://what-would-i-say.com) and the [Trump bot](https://filiph.github.io/markov/).
 	
-	![](assets/swiftkey.png)
-* Using a **generative grammar**, ie: a set of rules that can generate combinations of words which form grammatical sentences. 
+![](assets/swiftkey.png)
+
+#### 2. Using a *generative grammar*
+
+That is, a set of rules that can generate combinations of words which form grammatical sentences. 
 	
-	We are familiar with the idea of *grammar* as a set of rules that define how we combine words in the languages we use to speak every day, so that other humans can understand us. 
+We are familiar with the idea of *grammar* as a set of rules that define how we combine words in the languages we use to speak every day, so that other humans can understand us. 
 	
-	![](assets/dog-ate-bone.png)
+![](assets/dog-ate-bone.png)
 	
-	A generative grammar is based on the role that each word plays in a sentence, not on probability. This results in sentences that are generally more meaningful than those generated with Markov chains. 
+A generative grammar is based on the role that each word plays in a sentence, not on probability. This results in sentences that are generally more meaningful than those generated with Markov chains. 
 	
-	People have used generative grammars to make things like the [Art Critique generator](http://www.pixmaven.com/phrase_generator.html), the [Artist Bio generator](http://500letters.org/form_15.php), the [Fifty Shades generator](http://www.fiftyshadesgenerator.com/) and many other *generators*.
+People have used generative grammars to make things like the [Art Critique generator](http://www.pixmaven.com/phrase_generator.html), the [Artist Bio generator](http://500letters.org/form_15.php), the [Fifty Shades generator](http://www.fiftyshadesgenerator.com/) and many other *generators*.
 	
-	A generative grammar is made of a set of **structural rules**, which tell the computer how to put things together, and a set of **expansions**, which are options the computer can pick when generating stuff. 
+A generative grammar is made of a set of **structural rules**, which tell the computer how to put things together, and a set of **expansions**, which are options the computer can pick when generating stuff. 
 	
 <!-- Why grammars instead of Markov chains? Because they tend to be easier to start with, and give you more control over the generated output -->
 	
@@ -72,7 +77,7 @@ Today we're using [Tracery](http://www.crystalcodepalace.com/tracery.html), a la
 
 How can we translate those generative drawing instructions from English to Tracery?
 
-Let's start with the **structural rule**, aka `origin`. 
+Let's start with the **structural rule**, aka `origin` 
 
 ```js
 {
@@ -80,7 +85,7 @@ Let's start with the **structural rule**, aka `origin`.
 }
 ```
 
-Notice how the English `random marker` becomes `#marker#`. That tells a computer carrying out the Tracery instructions to pick a random element from the `marker` **expansion**:
+Notice how the English `random marker` becomes `#marker#`. That tells a computer carrying out the Tracery instructions to pick a random element from the `marker` **expansion**
 
 ```js
 {
