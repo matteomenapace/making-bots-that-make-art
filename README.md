@@ -4,7 +4,7 @@ Can a computer make art? Sure. Can you make art with a computer? Absolutely! Eve
 
 **In this practical workshop you will learn how to make a bot that tweets your generative art**. 
 
-We will use [CheapBotsDoneQuick](http://cheapbotsdonequick.com) by [@v21](https://github.com/v21), an amazing free tool that does the heavy lifting (Twitter API and such) so that we can focus on being creative with language and graphics.
+<!-- We will use [CheapBotsDoneQuick](http://cheapbotsdonequick.com) by [@v21](https://github.com/v21), an amazing free tool that does the heavy lifting (Twitter API and such) so that we can focus on being creative with language and graphics. -->
 
 ### Why?
 
@@ -12,6 +12,9 @@ We will use [CheapBotsDoneQuick](http://cheapbotsdonequick.com) by [@v21](https:
 
 This is an opportunity for us to play with the language of bots, to develop a better understanding of how their generative grammars work, and to think critically about their impact on our own language.
 
+## [Let's do it.](pres.md)
+
+<!--
 ### The plan
 
 1. ICE-BREAKING
@@ -23,9 +26,9 @@ This is an opportunity for us to play with the language of bots, to develop a be
 3. BOT-MAKING 
 
 	We’ll help you turn your idea into a Twitter bot using CheapBotsDoneQuick. Before time is over, we’ll admire what you have produced and follow each other’s bot! 
-
+-->
 	
-### License
+#### License
 
 [![](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0)
 
