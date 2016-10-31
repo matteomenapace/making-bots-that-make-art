@@ -1,0 +1,21 @@
+{
+  "origin": [
+    "#thing.capitalize# is great | Some #noun# #verb# so at least | #thing# is great"
+  ],
+  "thing": [
+    "politics",
+    "Donald Trump",
+    "religion",
+    "parliament",
+    "Obama"
+  ],
+  "noun": [
+    "people",
+    "adults",
+    "voters"
+  ],
+  "verb": [
+    "think",
+    "say"
+  ]
+}
