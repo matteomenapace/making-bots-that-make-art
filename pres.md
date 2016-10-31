@@ -1,4 +1,6 @@
-# Welcome!
+# Making bots that make art
+
+### Welcome!
 
 Hands up :raising_hand: if you...
 
