@@ -5,9 +5,11 @@
 Hands up :raising_hand: if you...
 
 * made a bot before
-* follow bots on Twitter
+* use bots (any bot)
 * are an artist
 * are a coder
+
+<!-- an automated customer service telephone system is a bot.. "press 5 if you want to speak to a human" -->  
 
 ### Nice to meet you!
 
@@ -57,9 +59,33 @@ There are two *states* in a Markov chain: what happens *now* and what can happen
   
 Now back to the :monkey: we could feed it with **source material** (eg: an article, a poem, an entire book...) and teach it to notice which words are more likely to follow each word in the source text. Then we could ask the monkey to build chains of words: starting from one word (perhaps a random word, or one that is likely to appear at the beginning of sentences in the source text), then picking the *next* word at random from the ones that follow the current word in the source text. 
 
+> To bot or not to bot?
+
+> William Shakespeare (ish)
+
+Word 	| Followed by
+---- 	| -----------
+`TO`	| `BOT`
+`BOT`	| `OR` or `?`
+`OR`	| `NOT`
+`NOT`	| `TO`
+`?`		| End of sentence
+
 Spam bots often use Markov chains to generate semi-sensical texts (see [Spam Poetry](http://www.spampoetry.org)). Other fascinating examples of Markov chains used on social media are [What would I say?](http://what-would-i-say.com) and the [Trump bot](https://filiph.github.io/markov/).
 	
 ![](assets/swiftkey.png)
+
+<!-- Black Mirror's "Be right back" https://www.youtube.com/watch?v=ld9m8Xrpko0 -->
+
+<!-- Allison Parrish Markov chain tutorial http://www.decontextualize.com/teaching/rwet/n-grams-and-markov-chains/ 
+
+The unit of the n-gram is called its *level*; the length of the n-gram is called its *order* (eg: word-level order-1 n-grams is what we did with "to bot or not to bot" above)
+
+* A higher order will generally create more comprehensible text. If your order is too high, however, you risk having your generated text repeat large portions of the source text.
+
+* Word-level n-grams are generally more comprehensible, but tend to repeat the source text at much lower orders; you need a lot of source text to make word-level n-grams differ significantly from the source text. Character-level n-grams require less text to create interesting results, but you might find that the generation algorithm produces non-words from time to time.
+
+-->
 
 #### 2. Using a *generative grammar*
 
