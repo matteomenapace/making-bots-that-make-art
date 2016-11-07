@@ -57,11 +57,13 @@ That is, using a [**Markov chain**](http://setosa.io/blog/2014/07/26/markov-chai
 
 There are two *states* in a Markov chain: what happens *now* and what can happen *next*. Each state has a probability associated with it. What happens next depends only on what happened now, not what happened two or three steps ago, even if there are multiple states.
   
-Now back to the :monkey: we could feed it with **source material** (eg: an article, a poem, an entire book...) and teach it to notice which words are more likely to follow each word in the source text. Then we could ask the monkey to build chains of words: starting from one word (perhaps a random word, or one that is likely to appear at the beginning of sentences in the source text), then picking the *next* word at random from the ones that follow the current word in the source text. 
+Now back to the :monkey: we could feed it with **source material** (eg: an article, a poem, an entire book...) and teach it to notice which words are more likely to follow each word in the source text. 
 
-> To bot or not to bot?
+Then we could ask the :monkey: to build chains of words: starting from one word (perhaps a random word from the source text), then picking the *next* word at random from the ones that follow the current word in the source text. 
 
-> William Shakespeare (ish)
+Let's pick an example from William Shakespeare (ish):
+
+> To *bot* or not to *bot*?
 
 Word 	| Followed by
 ---- 	| -----------
@@ -104,7 +106,7 @@ A generative grammar is made of a set of **structural rules**, which tell the co
 <!-- Why grammars instead of Markov chains? Because they tend to be easier to start with, and give you more control over the generated output -->
 
 
-# Let's play a grammar!
+# Let's *play* a grammar!
 
 To understand how a generative grammar works (and that it doesn't only apply to text) we'll use one to make drawings, together!
 
@@ -142,7 +144,7 @@ Notice how the English `random marker` becomes `#marker#`. That tells a computer
 -->	
 
 	
-# Let's reverse-engineer a grammar!	
+# Let's *deconstruct* a grammar!	
 	
 Here are some bots built with Tracery. 
 
