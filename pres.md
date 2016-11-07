@@ -97,7 +97,7 @@ We are familiar with the idea of *grammar* as a set of rules that define how we 
 	
 ![](assets/dog-ate-bone.png)
 	
-A generative grammar is based on the role that each word plays in a sentence, not on probability. This results in sentences that are generally more meaningful than those generated with Markov chains. 
+A generative grammar is based on the **role** that each word plays in a sentence, not on probability. This results in sentences that are generally more meaningful than those generated with Markov chains. 
 	
 People have used generative grammars to make things like the [Art Critique generator](http://www.pixmaven.com/phrase_generator.html), the [Artist Bio generator](http://500letters.org/form_15.php), the [Fifty Shades generator](http://www.fiftyshadesgenerator.com/) and many other *generators*.
 	
@@ -148,7 +148,11 @@ Notice how the English `random marker` becomes `#marker#`. That tells a computer
 	
 Here are some bots built with Tracery. 
 
-Scroll through their Twitter feeds and see if you can spot any **patterns** or **clues**. What might their grammars be like? 
+You're a :shipit: and have to investigate how these bots work! 
+
+Scroll through their Twitter feeds and search for **clues**. Which parts of the tweet **change**? Which parts **don't change**? Which parts **repeat**? 
+
+What might the bot's grammar be like? 
 
 [![](assets/CombinationBot.jpeg)](https://twitter.com/CombinationBot)
 [@CombinationBot](https://twitter.com/CombinationBot)	
@@ -187,6 +191,7 @@ Do you have an idea for your generative Twitter bot?
 
 If not, head to [bit.ly/bot-ideas-generator](https://matteomenapace.github.io/random-generator-generator/examples/bot-idea-generator/) to get some inspiration :bulb:
 
+<!--
 ### Brain-swarm 
 
 You may be familiar with *brainstorming*, but have you heard of [**brain-swarming**](http://blogs.hbr.org/2014/03/why-you-should-stop-brainstorming/) before?
@@ -200,6 +205,7 @@ In *brainstorming* you **talk** (and interrupt), whilst in *brainswarming* you *
 1. Grab sharpies and post-its.
 * Write down the inception of your Twitter bot idea on one post-it.
 * Pass it around the room for everyone else to add to it, until it comes back to you!
+-->
 
 
 # Let's make the bot!
@@ -208,7 +214,9 @@ We will use [CheapBotsDoneQuick](http://cheapbotsdonequick.com) by [@v21](https:
 
 [![](assets/cbdq.png)](http://cheapbotsdonequick.com)
 
-*With a little help from [this friend](https://matteomenapace.github.io/random-generator-generator) or [this friend](http://www.brightspiral.com/tracery)* :wrench:
+*With a little help from [bit.ly/random-generator-generator](https://matteomenapace.github.io/random-generator-generator) :wrench: 
+
+<!-- or [this friend](http://www.brightspiral.com/tracery)* -->
 
 <!-- http://air.decontextualize.com/tracery -->
 
