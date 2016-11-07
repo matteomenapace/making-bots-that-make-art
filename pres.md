@@ -214,7 +214,7 @@ We will use [CheapBotsDoneQuick](http://cheapbotsdonequick.com) by [@v21](https:
 
 [![](assets/cbdq.png)](http://cheapbotsdonequick.com)
 
-*With a little help from [bit.ly/random-generator-generator](https://matteomenapace.github.io/random-generator-generator) :wrench: 
+With a little help from [bit.ly/random-generator-generator](https://matteomenapace.github.io/random-generator-generator) :wrench: 
 
 <!-- or [this friend](http://www.brightspiral.com/tracery)* -->
 
