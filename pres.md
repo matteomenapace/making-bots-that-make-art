@@ -152,7 +152,7 @@ You're a :shipit: and have to investigate how these bots work!
 
 Scroll through their Twitter feeds and search for **clues**. Which parts of the tweet **change**? Which parts **don't change**? Which parts **repeat**? 
 
-What might the bot's grammar be like? 
+If you tried to **imitate** the bot, what **rules** would you follow to tweet in its **style**?
 
 [![](assets/CombinationBot.jpeg)](https://twitter.com/CombinationBot)
 [@CombinationBot](https://twitter.com/CombinationBot)	
@@ -190,6 +190,8 @@ What might the bot's grammar be like?
 Do you have an idea for your generative Twitter bot?
 
 If not, head to [bit.ly/bot-ideas-generator](https://matteomenapace.github.io/random-generator-generator/examples/bot-idea-generator/) to get some inspiration :bulb:
+
+Once you have an idea, write down 2-3 example tweets for your bot!
 
 <!--
 ### Brain-swarm 
